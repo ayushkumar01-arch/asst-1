@@ -19,7 +19,7 @@ st.set_page_config(
 # ==========================================================
 
 df = pd.read_csv("california_housing_streamlit.csv")
-model = joblib.load("random_forest_model.pkl")
+model = joblib.load("model.pkl")
 
 # ==========================================================
 # Title
